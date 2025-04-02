@@ -51,7 +51,5 @@ public class DemoHorses {
         System.out.println("Color: " + raceHest.getColor());
         System.out.println("Birth Year: " + raceHest.getBirthYear());
         System.out.println("Races Competed: " + raceHest.getAmountOfRaces());
-
-
     }
 }
