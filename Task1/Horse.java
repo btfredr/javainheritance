@@ -23,7 +23,7 @@ public class Horse {
         this.color = color;
     }
 
-    public String getBirthYear() {
+    public int getBirthYear() {
         return birthYear;
     }
 
