@@ -17,6 +17,7 @@ public class DemoHorses {
 
         System.out.print("Please enter the birth year of the horse: ");
         hest.setBirthYear(input.nextInt());
+        input.nextLine();
 
         // Getting info for RaceHorse
         RaceHorse raceHest = new RaceHorse();
@@ -28,9 +29,11 @@ public class DemoHorses {
 
         System.out.print("Enter the birth year of the racehorse: ");
         raceHest.setBirthYear(input.nextInt());
+        input.nextLine();
 
         System.out.print("Enter the amount of races the racehorse has completed: ");
         raceHest.setAmountOfRaces(input.nextInt());
+        input.nextLine();
 
         input.close();
 
